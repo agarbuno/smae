@@ -21,7 +21,7 @@
 
 #+REVEAL_SLIDE_NUMBER: t
 #+REVEAL_PLUGINS: (notes search)
-#+REVEAL_EXTRA_CSS: .css/mods.css
+#+REVEAL_EXTRA_CSS: {{ './.css/mods.css' | relative_url }}
 
 #+bibliography: references.bib
 #+cite_export: csl
